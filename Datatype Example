@@ -1,0 +1,41 @@
+#Code:
+------
+object datatypesExample{
+def main(args:Array[String])={
+
+String a=args(0)
+println(a)
+
+var i:short=32755;
+//i=32767
+println(i)
+var j:Int=2147483645
+//j=2147483647
+println(j)
+var k:long=922337203685477500l
+//k=9223372036854775807
+println(k)
+
+var l:Float=32.2777777777777777777777777777777777777777777f
+println(l)
+
+var m:Double=32.255555555555555555555555555555555555555555555555
+println(m)
+
+}
+}
+---------------------------------------------------------------
+#OUTPUT:
+--------
+D:\SCALA>scala Datatypes.scala
+Datatypes.scala:4: error: value a is not a member of object String
+String a=args(0)
+       ^
+Datatypes.scala:5: error: not found: value a
+println(a)
+        ^
+Datatypes.scala:7: error: not found: type short
+var i:short=32755;
+      ^
+Datatypes.scala:13: error: not found: type long
+var k:long=922337203685477500l
