@@ -1,0 +1,41 @@
+# Code:
+-------
+object test{
+def main(args:Array[String])={
+var name:String = args(0)
+var one:Int = args(1).toInt
+var two:Int = args(2).toInt
+var three:Int = args(3).toInt
+var four:Int = args(4).toInt
+var five:Int = args(5).toInt
+var six:Int = args(6).toInt
+val total = (one+two+three+four+five+six);
+println(total)
+
+var percentage=(total)/6;
+println(percentage)
+
+if(percentage>90.0f){
+println("First Class")
+}
+else if(percentage > 80.0f){
+println("Second Class")
+}
+else if(percentage > 70.0f){
+println("Third Class")
+}
+else if(percentage < 33.0f){
+println("Fail")
+}
+else{
+	println("pass");
+	}
+}
+}
+------------------------------------------------------------
+#Output:
+-------
+D:\SCALA>scala Conditional_Statement.scala xyz 99 88 77 66 55 89
+474
+79
+Third Class
