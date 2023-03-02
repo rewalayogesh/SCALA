@@ -1,0 +1,100 @@
+# Program
+---------
+import scala.io.StdIn.readInt;
+import scala.io.StdIn.readLine;
+
+object matchExample{
+def main(args:Array[String])={
+println("please enter the first value");
+var ip1: Int =readInt()
+println("please enter the second value");
+var ip2: Int =readInt()
+
+println("please enter the operator");
+var opr: String =readLine()
+opr match {
+case "+" => println("This is addition "+(ip1+ip2));
+case "-" => println("This is subtraction "+(ip1-ip2));
+case "*" => println("This is multiplication "+(ip1*ip2));
+case "/" => println("This is division "+(ip1/ip2));
+case _ => println("This is default case");
+}
+
+
+}
+}
+--------------------------------------------------------------------
+Output:
+-------
+D:\SCALA>scala Calculator.scala
+Calculator.scala:10: error: not found: value readLine
+var opr: Int =readLine()
+              ^
+Calculator.scala:12: error: type mismatch;
+ found   : String("+")
+ required: Int
+case "+" => println("This is addition ");
+     ^
+Calculator.scala:13: error: type mismatch;
+ found   : String("-")
+ required: Int
+case "-" => println("This is subtraction ");
+     ^
+Calculator.scala:14: error: type mismatch;
+ found   : String("*")
+ required: Int
+case "*" => println("This is multiplication ");
+     ^
+Calculator.scala:15: error: type mismatch;
+ found   : String("/")
+ required: Int
+case "/" => println("This is division ");
+     ^
+
+D:\SCALA>scala Calculator.scala
+Calculator.scala:10: error: not found: value readLine
+var opr: Int =readLine()
+              ^
+Calculator.scala:12: error: type mismatch;
+ found   : String("+")
+ required: Int
+case "+" => println("This is addition "+(ip1+ip2));
+     ^
+Calculator.scala:13: error: type mismatch;
+ found   : String("-")
+ required: Int
+case "-" => println("This is subtraction "+(ip1-ip2));
+     ^
+Calculator.scala:14: error: type mismatch;
+ found   : String("*")
+ required: Int
+case "*" => println("This is multiplication "+(ip1*ip2));
+     ^
+Calculator.scala:15: error: type mismatch;
+ found   : String("/")
+ required: Int
+case "/" => println("This is division "+(ip1/ip2));
+     ^
+
+D:\SCALA>scala Calculator.scala
+Calculator.scala:10: error: not found: value readLine
+var opr: String =readLine()
+                 ^
+
+D:\SCALA>scala Calculator.scala
+please enter the first value
+4
+please enter the second value
+5
+please enter the operator
+*
+This is multiplication 20
+
+D:\SCALA>scala Calculator.scala
+please enter the first value
+7
+please enter the second value
+5
+please enter the operator
+/
+This is division 1
