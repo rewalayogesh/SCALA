@@ -1,0 +1,109 @@
+# SCALA Boolean
+object datatypesExample{
+def main(args:Array[String])={
+var i=true;
+println(i)
+
+}
+}
+-------------------------------------------------
+#LOOP PERCENTAGE
+object StudentData{
+def main(args:Array[String])=
+{
+	var name = args(0)
+	var ans =0
+	for( i <- 1 to 6)
+	{
+		ans +=args(i).toInt
+		
+	}
+	
+	val percentage = (ans)/6;
+println(percentage)
+}
+}
+--------------------------------------------------
+#HELLO WORLD PROGRAM
+object ScalaExample{
+		def main(args:Array[String]){
+			println("Hello Scala");
+		}
+}
+---------------------------------------------------
+#DATA-TYPES PROGRAM
+object datatypesExample{
+def main(args:Array[String])={
+
+String a=args(0)
+println(a)
+
+var i:short=32755;
+//i=32767
+println(i)
+var j:Int=2147483645
+//j=2147483647
+println(j)
+var k:long=922337203685477500l
+//k=9223372036854775807
+println(k)
+
+var l:Float=32.2777777777777777777777777777777777777777777f
+println(l)
+
+var m:Double=32.255555555555555555555555555555555555555555555555
+println(m)
+
+}
+}
+-----------------------------------------------------------
+#CONDITIONAL STATEMENT IF ELSE
+object test{
+def main(args:Array[String])={
+var name:String = args(0)
+var one:Int = args(1).toInt
+var two:Int = args(2).toInt
+var three:Int = args(3).toInt
+var four:Int = args(4).toInt
+var five:Int = args(5).toInt
+var six:Int = args(6).toInt
+val total = (one+two+three+four+five+six);
+println(total)
+
+var percentage=(total)/6;
+println(percentage)
+
+if(percentage>90.0f){
+println("First Class")
+}
+else if(percentage > 80.0f){
+println("Second Class")
+}
+else if(percentage > 70.0f){
+println("Third Class")
+}
+else if(percentage < 33.0f){
+println("Fail")
+}
+else{
+	println("pass");
+	}
+}
+}
+-----------------------------------------------
+# PERCENTAGE FINDING EXAMPLE 
+object StudentData{
+def main(args:Array[String])=
+{
+	var name = args(0)
+	var one = args(1).toInt
+	var two = args(2).toInt
+	var three = args(3).toInt
+	var four = args(4).toInt
+	var five = args(5).toInt
+	var six = args(6).toInt
+	val percentage = (one+two+three+four+five+six)/6;
+println(name +" percentage is " +percentage)
+}
+}
+----------------------------------------------------------
