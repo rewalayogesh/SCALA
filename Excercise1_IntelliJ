@@ -1,0 +1,31 @@
+# CODE:Write a program to print multiplication table and avoid printing 5th row.
+-------
+import scala.io.StdIn.readInt
+
+object Excercise1 {
+  def main(args: Array[String]): Unit = {
+    print("Enter the number for table")
+    var a = readInt()
+    for (i <- 1 to 10 if (i!=5)) {
+      var m =a*i;
+        println(s"$a*$i=$m")
+        //println(a+"*"+i+"="+m)
+        }
+}
+}
+------------------------------------------------------------------------------------------------
+#OUTPUT:
+--------
+"C:\Program Files\Java\jdk1.8.0_251\bin\java.exe"
+Enter the number for table4
+4*1=4
+4*2=8
+4*3=12
+4*4=16
+4*6=24
+4*7=28
+4*8=32
+4*9=36
+4*10=40
+
+Process finished with exit code 0
