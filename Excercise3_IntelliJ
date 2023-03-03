@@ -1,0 +1,36 @@
+# Code: Write a program to print odd numbers with given range and avoid if divisible by 7.
+------------------------------------------------------------------------------------------
+object Excercise2 {
+  def main(args: Array[String]): Unit = {
+    for (i <- 1 to 50 if (i%7!=0) if(i%2!=0) ) {
+      println(i+" :True odd and not divisible by 7")
+    }
+  }
+}
+---------------------------------------------------------------------------------------------------------------------------
+#Output:
+--------
+"C:\Program Files\Java\jdk1.8.0_251\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\lib\idea_rt.jar=50563:C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;D:\SCALA\Scala Project\target\scala-2.13\classes;C:\Users\yoges\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar" Excercise2
+1 :True odd and not divisible by 7
+3 :True odd and not divisible by 7
+5 :True odd and not divisible by 7
+9 :True odd and not divisible by 7
+11 :True odd and not divisible by 7
+13 :True odd and not divisible by 7
+15 :True odd and not divisible by 7
+17 :True odd and not divisible by 7
+19 :True odd and not divisible by 7
+23 :True odd and not divisible by 7
+25 :True odd and not divisible by 7
+27 :True odd and not divisible by 7
+29 :True odd and not divisible by 7
+31 :True odd and not divisible by 7
+33 :True odd and not divisible by 7
+37 :True odd and not divisible by 7
+39 :True odd and not divisible by 7
+41 :True odd and not divisible by 7
+43 :True odd and not divisible by 7
+45 :True odd and not divisible by 7
+47 :True odd and not divisible by 7
+
+Process finished with exit code 0
